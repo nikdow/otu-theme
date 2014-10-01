@@ -21,3 +21,6 @@ nav.top-bar {
 	font-size: 1rem;
 	line-height: inherit;
 }
+.hero_overlay {
+	height: 150%;
+}
