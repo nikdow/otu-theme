@@ -1,0 +1,19 @@
+/*
+ Theme Name:   Community Center Child
+ Theme URI:    http://example.com/
+ Description:  Community Center Child Theme
+ Author:       Rescue Themes
+ Author URI:   http://rescuethemes.com
+ Template:     communitycenter
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  communitycenter-child
+*/
+
+@import url("../communitycenter/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+nav.top-bar {
+	height: 70px !important;
+}
