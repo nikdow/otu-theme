@@ -22,5 +22,14 @@ nav.top-bar {
 	line-height: inherit;
 }
 .hero_overlay {
-	height: 251%;
+	height: 2430px !important;
+}
+.hero_overlay pre {
+    color: #fff;
+}
+#discover {
+    margin-top: 1308px;
+}
+.quote_area_wrap .hero_overlay {
+    height: 100% !important;
 }
