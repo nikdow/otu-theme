@@ -17,3 +17,7 @@
 nav.top-bar {
 	height: 70px !important;
 }
+.hero_content p {
+	font-size: 1rem;
+	line-height: inherit;
+}
