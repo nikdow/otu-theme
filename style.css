@@ -33,7 +33,7 @@ nav.top-bar {
 #discover {
     margin-top: 1308px;
 }
-div.hero_wrap a.hero_more>round {
+a.hero_more {
 	display:none;
 }
 .quote_area_wrap .hero_overlay {
