@@ -17,10 +17,12 @@
 nav.top-bar {
 	height: 70px !important;
 }
-.hero_content {
+.hero_content p {
 	font-size: 1rem;
 	line-height: inherit;
-        color: #fff;
+}
+.hero_content {
+    color: #fff;
 }
 .hero_overlay {
 	height: 2430px !important;
