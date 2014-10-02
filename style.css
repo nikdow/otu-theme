@@ -32,7 +32,9 @@ nav.top-bar {
 }
 #discover {
     margin-top: 1308px;
-    display: none;
+}
+div.hero_wrap a.hero_more>round {
+	display:none;
 }
 .quote_area_wrap .hero_overlay {
     height: 100% !important;
