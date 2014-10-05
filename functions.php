@@ -9,6 +9,9 @@ function my_login_logo() { ?>
                 -webkit-background-size: auto;
                 background-size: auto;
             }
+            #login {
+                    width: 335px;
+            }
         </style>
 <?php } 
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
