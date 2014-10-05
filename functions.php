@@ -8,6 +8,7 @@ function my_login_logo() { ?>
                 background-image: url(/wp-content/uploads/2014/09/otu_logo.png);
                 -webkit-background-size: auto;
                 background-size: auto;
+                width: auto;
             }
             #login {
                     width: 335px;
