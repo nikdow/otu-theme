@@ -234,12 +234,13 @@ get_header(); ?>
 if ( ! is_user_logged_in() ) { // Display WordPress login form:
              ?>
              <h3>Login</h3>
-             <form name="loginform-custom-shortcode" id="loginform-custom-shortcode" action="<?=site_url()?>/wp-login.php" method="post">
-                 <p class="login-username"><label for="user_login">surname / username</label>
-                     <input type="text" name="log" id="user_login" class="input" size="20"/>
+             <form name="loginform-custom-shortcode" id="loginform-custom-shortcode" onSubmit="loginSubmit(this)" action="<?=site_url()?>/wp-login.php" method="post">
+                 <p class="login-username"><label for="user_login">surname</label>
+                     <input type="text" name="partial_log" id="user_login" class="input" size="20"/>
+                     <input type="hidden" name="log" />
                  </p>
                  <P class="login-password">
-                     <label for="user_pass">Reg No / password</label>
+                     <label for="user_pass">Reg No</label>
                      <input type="password" name="pwd" id="user_pass" class="input" size="20"/>
                  </P>
                  <?php do_action( 'login_form' );?>
