@@ -3,6 +3,7 @@
  * Template Name: User Profile
  *
  * Allow users to update their profiles from Frontend.
+ * based on http://wordpress.stackexchange.com/questions/9775/how-to-edit-a-user-profile-on-the-front-end
  *
  */
 
