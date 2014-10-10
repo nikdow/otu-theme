@@ -43,4 +43,7 @@ a.hero_more {
     margin: 5px 0;
     border-bottom: #BBB solid 1px;
 }
+.menu-sidebar-container li ul.sub-menu li {
+    border: none !important;
+}
 
