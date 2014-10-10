@@ -39,5 +39,8 @@ a.hero_more {
 .quote_area_wrap .hero_overlay {
     height: 100% !important;
 }
-
+.menu-sidebar-container li {
+    margin: 5px 0;
+    border-bottom: #BBB solid 1px;
+}
 
