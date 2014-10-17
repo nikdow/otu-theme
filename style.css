@@ -46,4 +46,10 @@ a.hero_more {
 .menu-sidebar-container li ul.sub-menu li {
     border: none !important;
 }
+/*
+* header logo
+*/
+ul.title-area img {
+    margin-top: -41px;
+}
 

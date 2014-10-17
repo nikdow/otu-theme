@@ -5,7 +5,7 @@
 function my_login_logo() { ?>
         <style type="text/css">
             body.login div#login h1 a {
-                background-image: url(/wp-content/uploads/2014/09/otu_logo.png);
+                background-image: url(/wp-content/uploads/2014/10/OTU-Sign-NEW-2001.jpg);
                 -webkit-background-size: auto;
                 background-size: auto;
                 width: auto;
