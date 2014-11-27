@@ -184,6 +184,8 @@ get_header(); ?>
 
 </div><!-- .large-8 -->
 
+<?php get_sidebar(); ?>
+
 </div> <!-- .row .content_row -->
 
 <?php get_footer(); ?>
