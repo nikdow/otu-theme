@@ -69,7 +69,7 @@ get_header(); ?>
 
 <div class="row content_row">
 
-	<div class="large-9 columns">
+	<div class="columns">
 
 	<div id="primary" class="content-area">
 		
@@ -95,7 +95,8 @@ get_header(); ?>
                                         $metas[$row->meta_key] = $row->meta_value;
                                     }
                                     
-                                    ?>   
+                                    ?>  
+                                    <h3>Edit your details</h3>
                                     <form method="post" id="adduser" action="<?php the_permalink(); ?>">
                                         <p class="form-username">
                                             <label for="first-name"><?php _e('First Name', 'profile'); ?></label>
@@ -159,7 +160,8 @@ get_header(); ?>
                                         </p>
                                         <p class="form-do_not_contact">
                                             <label for="pmpro_do_not_contact">Do not contact</label>
-                                            <input class="checkbox-input" name="pmpro_do_not_contact" type="checkbox" value="1" <?= $metas[ 'pmpro_do_not_contact' ]==1 ? "checked" : ""; ?> />
+                                            <input class="checkbox-input" name="pmpro_do_not_contact" type="checkbox" value="1" <?= $metas[ 'pmpro_do_not_contact' ]==1 ? "checked" : ""; ?> /><br/>
+                                            This will prevent other members seeing your contact information
                                         </p>
 
                                         <p class="form-submit">
