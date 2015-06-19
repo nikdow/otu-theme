@@ -1,5 +1,10 @@
 <?php
 /*
+ * get template tags from child theme
+ */
+require_once( trailingslashit(get_stylesheet_directory() ). 'template-tags.php' );
+
+/*
  * login form
  */
 function my_login_logo() { ?>
