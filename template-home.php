@@ -118,10 +118,10 @@ get_header(); ?>
 
 			<h2><?php echo of_get_option( 'home_user_title' ); ?></h2>
 
-			<div class="contributor_list"><?php rescue_contributors(); // edit in inc/template-tags.php ?></div>
-
+			<div class="contributor_list"><?php cbdweb_committee(); // edit in inc/template-tags.php ?></div>
+<?php if ( false ) {?>
 			<a href="<?php echo of_get_option( 'home_user_button_link' ); ?>" class="button radius round"><?php echo of_get_option( 'home_user_button_title' ); ?> &#8594;</a>
-
+<?php } ?>
 		</div><!-- .large-12 -->
 
 	</div><!-- .row -->
