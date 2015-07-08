@@ -14,6 +14,7 @@ function my_login_logo() { ?>
                 -webkit-background-size: auto;
                 background-size: auto;
                 width: auto;
+                height: 133px;
             }
             #login {
                     width: 335px;
