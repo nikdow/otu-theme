@@ -1,0 +1,3 @@
+[submodule "ngDialog"]
+	path = ngDialog
+	url = https://github.com/likeastore/ngDialog.git
