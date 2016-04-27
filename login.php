@@ -28,7 +28,7 @@ get_header(); ?>
                                 <?php the_content(); ?>
 
                                     <div class="home_login_wrap">
-                                        <a name="login">
+                                        <a name="login"></a>
                                         <div class="row">
                                             <div class="large-12 columns">
 
@@ -56,6 +56,7 @@ get_header(); ?>
                                                          <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In"/>
                                                      </p>
                                                  </form>
+                                                 Online membership is preferred, but if you would rather use a printed form, <a href="http://www.otu.asn.au/wp-content/uploads/Renewal-Form-16-17.pdf">download one here</a>.
                                         </div>
                                     </div>
                                 </div>
