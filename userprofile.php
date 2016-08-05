@@ -8,8 +8,8 @@
  */
 
 /* Get user info. */
-global $current_user;
-get_currentuserinfo();
+$current_user = wp_get_current_user();
+// get_currentuserinfo(); // deprecated at 4.5
 
 $error = array();    
 /* If profile was saved, update profile. */
