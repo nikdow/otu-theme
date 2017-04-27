@@ -24,7 +24,7 @@ function my_login_logo() { ?>
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 add_action( 'after_setup_theme', function() {
    wp_dequeue_style( 'font_awesome' );
-   wp_enqueue_style( 'font_awesome_cdn', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0', 'all');
+   wp_enqueue_style( 'font_awesome_cdn', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0', 'all');
 });
 if ( CBDWeb_SUPPRESS_CHECK_UPDATES ) {
     add_action( 'admin_head', 'suppress_update_checks', 999 );
