@@ -22,7 +22,7 @@ function my_login_logo() { ?>
         </style>
 <?php } 
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
-add_action( 'after_setup_theme', function() {
+add_action( 'wp_enqueue_scripts', function() {
    wp_dequeue_style( 'font_awesome' );
    wp_enqueue_style( 'font_awesome_cdn', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0', 'all');
 });
