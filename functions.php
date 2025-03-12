@@ -26,7 +26,7 @@ add_action( 'wp_enqueue_scripts', function() {
    wp_dequeue_style( 'font_awesome' );
    wp_enqueue_style( 'font_awesome_cdn', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0', 'all');
 });
-if ( CBDWeb_SUPPRESS_CHECK_UPDATES ) {
+if ( defined('CBDWeb_SUPPRESS_CHECK_UPDATES' ) && CBDWeb_SUPPRESS_CHECK_UPDATES ) {
     add_action( 'admin_head', 'suppress_update_checks', 999 );
 }
 function suppress_update_checks() {
